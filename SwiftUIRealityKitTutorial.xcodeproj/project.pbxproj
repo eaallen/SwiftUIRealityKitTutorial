@@ -9,12 +9,17 @@
 /* Begin PBXBuildFile section */
 		68B942F02753122E0009D2F9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68B942EF2753122E0009D2F9 /* AppDelegate.swift */; };
 		68B942F22753122E0009D2F9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68B942F12753122E0009D2F9 /* ContentView.swift */; };
-		68B942F42753122E0009D2F9 /* Experience.rcproject in Sources */ = {isa = PBXBuildFile; fileRef = 68B942F32753122E0009D2F9 /* Experience.rcproject */; };
 		68B942F62753122F0009D2F9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 68B942F52753122F0009D2F9 /* Assets.xcassets */; };
 		68B942F92753122F0009D2F9 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 68B942F82753122F0009D2F9 /* Preview Assets.xcassets */; };
 		68B94303275312300009D2F9 /* SwiftUIRealityKitTutorialTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68B94302275312300009D2F9 /* SwiftUIRealityKitTutorialTests.swift */; };
 		68B9430D275312300009D2F9 /* SwiftUIRealityKitTutorialUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68B9430C275312300009D2F9 /* SwiftUIRealityKitTutorialUITests.swift */; };
 		68B9430F275312300009D2F9 /* SwiftUIRealityKitTutorialUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68B9430E275312300009D2F9 /* SwiftUIRealityKitTutorialUITestsLaunchTests.swift */; };
+		68B9431E27531C560009D2F9 /* toy_car.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 68B9431C27531C560009D2F9 /* toy_car.usdz */; };
+		68B9431F27531C560009D2F9 /* toy_biplane.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 68B9431D27531C560009D2F9 /* toy_biplane.usdz */; };
+		68B9432227531D6B0009D2F9 /* toy_drummer.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 68B9432027531D6B0009D2F9 /* toy_drummer.usdz */; };
+		68B9432327531D6B0009D2F9 /* toy_robot_vintage.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 68B9432127531D6B0009D2F9 /* toy_robot_vintage.usdz */; };
+		68B9432527565FD40009D2F9 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68B9432427565FD40009D2F9 /* Model.swift */; };
+		68B94328275666D70009D2F9 /* FocusEntity in Frameworks */ = {isa = PBXBuildFile; productRef = 68B94327275666D70009D2F9 /* FocusEntity */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,7 +43,6 @@
 		68B942EC2753122E0009D2F9 /* SwiftUIRealityKitTutorial.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUIRealityKitTutorial.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		68B942EF2753122E0009D2F9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		68B942F12753122E0009D2F9 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		68B942F32753122E0009D2F9 /* Experience.rcproject */ = {isa = PBXFileReference; lastKnownFileType = file.rcproject; path = Experience.rcproject; sourceTree = "<group>"; };
 		68B942F52753122F0009D2F9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		68B942F82753122F0009D2F9 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		68B942FE275312300009D2F9 /* SwiftUIRealityKitTutorialTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftUIRealityKitTutorialTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -46,6 +50,11 @@
 		68B94308275312300009D2F9 /* SwiftUIRealityKitTutorialUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftUIRealityKitTutorialUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		68B9430C275312300009D2F9 /* SwiftUIRealityKitTutorialUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIRealityKitTutorialUITests.swift; sourceTree = "<group>"; };
 		68B9430E275312300009D2F9 /* SwiftUIRealityKitTutorialUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIRealityKitTutorialUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		68B9431C27531C560009D2F9 /* toy_car.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = toy_car.usdz; sourceTree = "<group>"; };
+		68B9431D27531C560009D2F9 /* toy_biplane.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = toy_biplane.usdz; sourceTree = "<group>"; };
+		68B9432027531D6B0009D2F9 /* toy_drummer.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = toy_drummer.usdz; sourceTree = "<group>"; };
+		68B9432127531D6B0009D2F9 /* toy_robot_vintage.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = toy_robot_vintage.usdz; sourceTree = "<group>"; };
+		68B9432427565FD40009D2F9 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +62,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				68B94328275666D70009D2F9 /* FocusEntity in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -98,7 +108,8 @@
 			children = (
 				68B942EF2753122E0009D2F9 /* AppDelegate.swift */,
 				68B942F12753122E0009D2F9 /* ContentView.swift */,
-				68B942F32753122E0009D2F9 /* Experience.rcproject */,
+				68B9432427565FD40009D2F9 /* Model.swift */,
+				68B9431B27531BAB0009D2F9 /* Models */,
 				68B942F52753122F0009D2F9 /* Assets.xcassets */,
 				68B942F72753122F0009D2F9 /* Preview Content */,
 			);
@@ -130,6 +141,17 @@
 			path = SwiftUIRealityKitTutorialUITests;
 			sourceTree = "<group>";
 		};
+		68B9431B27531BAB0009D2F9 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				68B9432027531D6B0009D2F9 /* toy_drummer.usdz */,
+				68B9432127531D6B0009D2F9 /* toy_robot_vintage.usdz */,
+				68B9431D27531C560009D2F9 /* toy_biplane.usdz */,
+				68B9431C27531C560009D2F9 /* toy_car.usdz */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -146,6 +168,9 @@
 			dependencies = (
 			);
 			name = SwiftUIRealityKitTutorial;
+			packageProductDependencies = (
+				68B94327275666D70009D2F9 /* FocusEntity */,
+			);
 			productName = SwiftUIRealityKitTutorial;
 			productReference = 68B942EC2753122E0009D2F9 /* SwiftUIRealityKitTutorial.app */;
 			productType = "com.apple.product-type.application";
@@ -218,6 +243,9 @@
 				Base,
 			);
 			mainGroup = 68B942E32753122E0009D2F9;
+			packageReferences = (
+				68B94326275666D70009D2F9 /* XCRemoteSwiftPackageReference "FocusEntity" */,
+			);
 			productRefGroup = 68B942ED2753122E0009D2F9 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -234,8 +262,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				68B9432227531D6B0009D2F9 /* toy_drummer.usdz in Resources */,
 				68B942F92753122F0009D2F9 /* Preview Assets.xcassets in Resources */,
+				68B9432327531D6B0009D2F9 /* toy_robot_vintage.usdz in Resources */,
 				68B942F62753122F0009D2F9 /* Assets.xcassets in Resources */,
+				68B9431F27531C560009D2F9 /* toy_biplane.usdz in Resources */,
+				68B9431E27531C560009D2F9 /* toy_car.usdz in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -260,9 +292,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				68B9432527565FD40009D2F9 /* Model.swift in Sources */,
 				68B942F22753122E0009D2F9 /* ContentView.swift in Sources */,
 				68B942F02753122E0009D2F9 /* AppDelegate.swift in Sources */,
-				68B942F42753122E0009D2F9 /* Experience.rcproject in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -613,6 +645,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		68B94326275666D70009D2F9 /* XCRemoteSwiftPackageReference "FocusEntity" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/maxxfrazer/FocusEntity.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		68B94327275666D70009D2F9 /* FocusEntity */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 68B94326275666D70009D2F9 /* XCRemoteSwiftPackageReference "FocusEntity" */;
+			productName = FocusEntity;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 68B942E42753122E0009D2F9 /* Project object */;
 }
